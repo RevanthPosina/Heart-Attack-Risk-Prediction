@@ -109,3 +109,7 @@ Heart attacks are preventable yet costly. Traditional risk scoring misses early 
 **Tracking:** MLflow  
 **Orchestration:** Airflow + Papermill  
 **Web UI:** Streamlit
+![StreamlitScreenshot01](https://github.com/user-attachments/assets/2eae9ec2-4c3f-439b-b58e-db64041e6ceb)
+![StreamlitScreenshot02](https://github.com/user-attachments/assets/cf4b5428-6a27-4592-807c-d73036b9c400)
+
+
