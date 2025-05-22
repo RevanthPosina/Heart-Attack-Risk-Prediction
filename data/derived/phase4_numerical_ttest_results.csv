@@ -1,0 +1,5 @@
+feature,t_stat,p_value
+bmi_z,-10.979,0.0
+physical_unhealthy_days_log_z,-31.4162,0.0
+mental_unhealthy_days_log_z,4.8759,1e-06
+alcohol_days_clean_log_z,-2.037,0.041683
