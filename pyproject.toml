@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brfss-risk"
+version = "0.1.0"
+description = "Heart‑attack risk pipeline using BRFSS 2023"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "xgboost",
+    "streamlit",
+    "shap",
+    "plotly",
+    "matplotlib"
+]

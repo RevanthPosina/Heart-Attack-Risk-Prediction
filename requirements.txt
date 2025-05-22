@@ -1,0 +1,5 @@
+apache-airflow-providers-amazon[aws]==8.13.0
+papermill
+mlflow
+boto3
+botocore
