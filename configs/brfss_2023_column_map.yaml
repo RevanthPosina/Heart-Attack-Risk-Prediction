@@ -1,0 +1,56 @@
+rename_map:
+  _AGEG5YR: age_group
+  SEXVAR: sex
+  EDUCA: education
+  INCOME3: income
+  MARITAL: marital_status
+  _RACEGR3: race_ethnicity
+  SMOKE100: smoked_100_cigs
+  _RFSMOK3: current_smoker_flag
+  EXERANY2: recent_exercise
+  _TOTINDA: meets_activity_guidelines
+  ALCDAY4: alcohol_days
+  _RFDRHV8: heavy_drinker
+  _HLTHPL1: has_health_insurance
+  _BMI5: bmi_raw
+  _MICHD: prev_chd_or_mi
+  DIABETE4: diabetes
+  CHCSCNC1: skin_cancer
+  CHCOCNC1: other_cancer
+  ASTHMA3: asthma
+  _RFHYPE6: high_bp_flag
+  BPMEDS1: taking_bp_meds
+  CVDSTRK3: stroke
+  TOLDHI3: high_cholesterol
+  CHOLCHK3: chol_check_recent
+  MENTHLTH: mental_unhealthy_days
+  ADDEPEV3: ever_depression_dx
+  GENHLTH: general_health
+  PHYSHLTH: physical_unhealthy_days
+  DIFFWALK: difficulty_walking
+  MEDCOST1: cost_prevented_care
+  CHECKUP1: last_checkup
+  PERSDOC3: has_primary_doctor
+  CVDINFR4: heart_attack
+
+binary_maps:
+  smoked_100_cigs: {1: 1, 2: 0}
+  current_smoker_flag: {1: 1, 2: 0}
+  recent_exercise: {1: 1, 2: 0}
+  meets_activity_guidelines: {1: 1, 2: 0}
+  heavy_drinker: {2: 1, 1: 0}
+  has_health_insurance: {1: 1, 2: 0}
+  diabetes: {1: 1, 2: 0, 3: 0, 4: 1}
+  skin_cancer: {1: 1, 2: 0}
+  other_cancer: {1: 1, 2: 0}
+  asthma: {1: 1, 2: 0}
+  high_bp_flag: {1: 0, 2: 1}
+  taking_bp_meds: {1: 1, 2: 0}
+  stroke: {1: 1, 2: 0}
+  high_cholesterol: {1: 1, 2: 0}
+  chol_check_recent: {1: 1, 2: 0, 3: 0}
+  ever_depression_dx: {1: 1, 2: 0}
+  difficulty_walking: {1: 1, 2: 0}
+  cost_prevented_care: {1: 1, 2: 0}
+  has_primary_doctor: {1: 1, 2: 0}
+  prev_chd_or_mi: {1: 1, 2: 0}
